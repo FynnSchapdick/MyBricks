@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A332AA3-6BBA-4C28-B9F2-641822670FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBricksApp", "src\MyBricksApp\MyBricksApp\MyBricksApp.csproj", "{1E13A1BA-2F82-4608-B41D-C22DFACF24C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBricksApp.Droid", "src\MyBricksApp\Platforms\MyBricksApp.Droid\MyBricksApp.Droid.csproj", "{EC88FD76-0A05-4B47-AC4D-3566C9EB34B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBricksApp.iOS", "src\MyBricksApp\Platforms\MyBricksApp.iOS\MyBricksApp.iOS.csproj", "{1708C505-395A-40BA-AB91-4957A3A63F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{7F3A2BAD-6B98-4373-8072-6B5B7C8195BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBricksApp.Core", "src\MyBricksApp.Core\MyBricksApp.Core.csproj", "{EC42A4B0-A2FF-4017-923C-B263F603FBA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E13A1BA-2F82-4608-B41D-C22DFACF24C6} = {2A332AA3-6BBA-4C28-B9F2-641822670FB7}
+		{7F3A2BAD-6B98-4373-8072-6B5B7C8195BE} = {2A332AA3-6BBA-4C28-B9F2-641822670FB7}
+		{EC88FD76-0A05-4B47-AC4D-3566C9EB34B5} = {7F3A2BAD-6B98-4373-8072-6B5B7C8195BE}
+		{1708C505-395A-40BA-AB91-4957A3A63F4A} = {7F3A2BAD-6B98-4373-8072-6B5B7C8195BE}
+		{EC42A4B0-A2FF-4017-923C-B263F603FBA7} = {2A332AA3-6BBA-4C28-B9F2-641822670FB7}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E13A1BA-2F82-4608-B41D-C22DFACF24C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E13A1BA-2F82-4608-B41D-C22DFACF24C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E13A1BA-2F82-4608-B41D-C22DFACF24C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E13A1BA-2F82-4608-B41D-C22DFACF24C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC88FD76-0A05-4B47-AC4D-3566C9EB34B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC88FD76-0A05-4B47-AC4D-3566C9EB34B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC88FD76-0A05-4B47-AC4D-3566C9EB34B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC88FD76-0A05-4B47-AC4D-3566C9EB34B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1708C505-395A-40BA-AB91-4957A3A63F4A}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{1708C505-395A-40BA-AB91-4957A3A63F4A}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{1708C505-395A-40BA-AB91-4957A3A63F4A}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{1708C505-395A-40BA-AB91-4957A3A63F4A}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{EC42A4B0-A2FF-4017-923C-B263F603FBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC42A4B0-A2FF-4017-923C-B263F603FBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC42A4B0-A2FF-4017-923C-B263F603FBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC42A4B0-A2FF-4017-923C-B263F603FBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
